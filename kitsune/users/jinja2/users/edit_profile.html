@@ -28,7 +28,8 @@
     <p class="mb-0"><strong>{{ user.email }}</strong></p>
     <p>
       {% trans a_open='<a href="https://support.mozilla.org/en-US/kb/change-primary-email-address-firefox-accounts">'|safe, a_close='</a>'|safe %}
-        To change your email or avatar, visit the Firefox Accounts page. {{ a_open }} Learn more. {{ a_close }}
+        To change your email or avatar, visit the Firefox Accounts page. {{ a_open }} Learn more. {{ a_close }}<br>
+        After an avatar-change, a re-login on support.mozilla.org is required for the changes to be applied.
       {% endtrans %}
     </p>
 
